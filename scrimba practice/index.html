@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Practice Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+        h2{
+            background-color: blue;
+            color: white;
+        }
+        h3{
+        background-color : greenyellow;  
+    }
+    .form{
+    display: inline;
+}
+    </style>
+</head>
+<body>
+     <a class="nav-link" href="link.html">Go to link page !</a>
+    <h2><center>All About Myself</center></h2>
+    <p>This is called Malika Tarannum.<br>I am a Coding Lover.</p>
+    <img src="images/picture.jpg" alt="first image" width="100%" height="150%">
+    <h3><center>Favourite Books</center></h3>
+    <ul>
+        <li>Nahj-ul-Balagha</li>
+        <li>Bekhray Moti</li>
+        <li>Kamiyabi ka Paigam</li>
+        <li>Zindagi Gukzar ha(novel)</li>
+    </ul>
+    <h3><center>Favourite Movies</center></h3>
+    <ul>
+        <li>Mery Rang ma Rangny Wali</li>
+        <li>Tootay Hovy Tary</li>
+        <li>Tere Bin</li>
+        <li>Ham Nasheen</li>
+        <li>Khani</li>
+        <li>Koi Chand Rakh</li>
+        <li>Mery Pas tum ho</li>
+        <li>Pyar Lafzon ma Kahan</li>
+        <li>Paray Hat Love</li>
+        <li>Ehd-e-Wafa</li>
+        <li>Bhotnath</li>
+    </ul>
+    <h3><center>Favourite Fruit</center></h3>
+    <table>
+        <tr>
+            <th>Name of Fruit</th>
+            <th>Color of Fruit</th>
+            <th>Taste of Fruit</th>
+        </tr>
+        <tr>
+            <td>Watermellon</td>
+            <td>Red</td>
+            <td>Sweet and Tasty</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Red</td>
+            <td>Sweet</td>
+        </tr>
+        
+        <tr>
+            <td>Grapes</td>
+            <td>Black</td>
+            <td>Sweet</td>
+        </tr>
+    </table>
+    <nav class="navbar">
+        <h3><center>Form</center></h3>
+    <div class="form">
+            <label>Name :     </label>
+                <input type="text" name="name" placeholder="Enter your name"><br>
+            <label>Email :   </label>
+                <input type="email" name="email" placeholder="Enter your email"><br>
+            <label>Password  :    </label>
+                <input type="password" name="password" placeholder="enter your password"><br>
+            <label>Age  :    </label>
+                <input type="number" name="age" placeholder="Enter your age"><br> 
+            <label>Gender :  </label><br> 
+            <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+            <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label><br>
+            <label>interests :  </label><br>    
+            <input type="checkbox" id="sports" name="interests[]" value="sports">
+                <label for="sports">Sports</label><br>
+            <input type="checkbox" id="music" name="interests[]" value="music">
+                <label for="music">Music</label><br>
+            <input type="checkbox" id="art" name="interests[]" value="art">
+                <label for="art">Art</label><br>
+            <input type="checkbox" id="reading" name="interests[]" value="reading">
+                <label for="reading">Reading</label><br>   
+            <label for="color">Select a color:</label>
+                <select id="color" name="color">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="purple">Purple</option>
+                </select><br>
+                <br>
+                <br>
+                <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" rows="4" cols="50"></textarea> 
+    </div>
+        <table>
+            <h3><center>Table</center></h3>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Hometown</th>
+                    <th>Occupation or Field of Study</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>My Name</td>
+                    <td>My Age</td>
+                    <td>My Gender</td>
+                    <td>My Hometown</td>
+                    <td>My Occupation or Field of Study</td>
+                </tr>
+                <tr>
+                    <td>Friend 1 Name</td>
+                    <td>Friend 1 Age</td>
+                    <td>Friend 1 Gender</td>
+                    <td>Friend 1 Hometown</td>
+                    <td>Friend 1 Occupation or Field of Study</td>
+                </tr>
+                <tr>
+                    <td>Friend 2 Name</td>
+                    <td>Friend 2 Age</td>
+                    <td>Friend 2 Gender</td>
+                    <td>Friend 2 Hometown</td>
+                    <td>Friend 2 Occupation or Field of Study</td>
+                </tr>
+                <tr>
+                    <td>Friend 3 Name</td>
+                    <td>Friend 3 Age</td>
+                    <td>Friend 3 Gender</td>
+                    <td>Friend 3 Hometown</td>
+                    <td>Friend 3 Occupation or Field of Study</td>
+                </tr>
+            </tbody>
+        </table>                
+    </nav>
+    <!-- <h2>This is my very first practice</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cupiditate!</p> -->
+
+</body>
+</html>
