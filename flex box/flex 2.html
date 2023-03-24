@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box 2</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            border: 5px solid black;
+        }
+        header{
+            background-color: aqua;
+        }
+        li{
+            width: 200px;
+            height: 80px;
+            font-size: 30px;
+            padding: 50px 200px;
+            display: inline-block;
+        }
+        .Box1{
+            background-color: red;
+            width: 20%;
+            height: 300px;
+            padding: 50px 100px;
+            display: flex;
+            float: left;
+            font-size: 30px;
+        }
+        .box2{
+            background-color: blue;
+            width: 20%;
+            height: 300px;
+            padding: 50px 100px;
+            display: flex;
+            font-size: 30px;
+        }
+        .box3{
+            background-color: blue;
+            width: 20%;
+            height: 300px;
+            padding: 50px 100px;
+            display: flex;
+            float: right;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <header>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    </header>
+    <div class="Box1">Box1</div>
+    <div class="box2">Box2</div>
+    <div class="box3">box3</div>
+    </div> 
+</body>
+</html>
